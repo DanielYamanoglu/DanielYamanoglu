@@ -1,12 +1,7 @@
 <div align="center">
   <h1>Daniel Yamanoğlu</h1>
-  <p>
-    <code>AI/ML ENGINEER</code>
-    <code>RAG &amp; AGENT SYSTEMS</code>
-    <code>APPLIED ML</code>
-    <code>CONTROL + SOFTWARE</code>
-  </p>
-  <p><strong>Retrieval systems, agent workflows, applied ML, and the backends that connect them.</strong></p>
+  <p><strong>AI/ML Engineer</strong> · RAG · Agent Systems · Backend</p>
+  <p>Building systems that retrieve the right context, use tools, and leave useful traces when they fail.</p>
   <p>
     <a href="https://danielyamanoglu.github.io/">Portfolio</a>
     ·
@@ -18,185 +13,92 @@
   </p>
 </div>
 
-<table>
-  <tr>
-    <td width="62%" valign="top">
-      <h3>Profile</h3>
-      <p>
-        I am an AI/ML Engineer with a Control &amp; Automation Engineering background. I work on retrieval pipelines,
-        agent workflows, predictive ML, and data-heavy backends.
-      </p>
-      <p>
-        My approach is practical: make state and data flow explicit, measure what the system returns, and keep failure
-        modes visible when retrieval or tool calls go wrong.
-      </p>
-    </td>
-    <td width="38%" valign="top">
-      <h3>At a glance</h3>
-      <code>Istanbul, Turkey</code><br />
-      <code>Remote / Global</code><br />
-      <code>Yıldız Technical University</code><br />
-      <code>Open to AI/ML roles</code>
-    </td>
-  </tr>
-</table>
+<pre><code>$ whoami
+daniel / AI-ML engineer
 
-## Focus areas
+$ currently
+retrieval + agent memory + Python backends
+
+$ location
+Istanbul → Remote / Global
+</code></pre>
+
+## `01` / About
+
+I work in the awkward middle layer where a model meets a database, an API, a sensor, or a user who did not follow the happy path.
+
+My background is in Control &amp; Automation Engineering, so I naturally care about state, signals, feedback, and failure modes. I am equally happy thinking about a Kalman filter or a FastAPI endpoint, preferably with good logs for both.
+
+I spend a healthy amount of time asking agents two questions: **what did you retrieve, and why?**
+
+## `02` / What I build
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3>Retrieval &amp; memory</h3>
-      Embeddings, reranking, vector search, graph memory, and retrieval evaluation.
+      Embeddings, reranking, vector search, graph memory, and evaluation flows.
     </td>
     <td width="50%" valign="top">
-      <h3>Agent workflows</h3>
-      Tool use, routing, memory, structured context, and failure handling.
+      <h3>Agents &amp; tools</h3>
+      Routing, tool calls, structured context, memory, and failure handling.
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>Applied ML</h3>
-      XGBoost, neural models, SHAP explanations, sensor data, and predictive workflows.
+      XGBoost, SHAP, neural models, sensor data, and predictive workflows.
     </td>
     <td width="50%" valign="top">
       <h3>Backend systems</h3>
-      Python, FastAPI, Docker, asynchronous services, and data-focused APIs.
+      Python, FastAPI, Docker, async APIs, and data-focused services.
     </td>
   </tr>
 </table>
 
-## Selected work
+## `03` / Things I have built
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Life OS</h3>
-      <sub>AGENTIC KNOWLEDGE SYSTEM</sub>
-      <p>
-        A personal knowledge system where agents capture, categorize, and retrieve information through a Neo4j memory
-        layer and Telegram input.
-      </p>
-      <code>Neo4j</code> <code>3 agents</code> <code>Telegram</code><br />
-      <a href="https://danielyamanoglu.github.io/#projects">View project →</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Matchfluence</h3>
-      <sub>B2B INFLUENCER MARKETING PLATFORM</sub>
-      <p>
-        Backend infrastructure for creator-brand matching, data models, analytics, and dashboard APIs.
-      </p>
-      <code>Supabase</code> <code>Next.js</code> <code>Flutter</code><br />
-      <a href="https://danielyamanoglu.github.io/#projects">View project →</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>ML Risk Analytics</h3>
-      <sub>PREDICTIVE PEOPLE ANALYTICS</sub>
-      <p>
-        An XGBoost turnover-risk model reached <strong>91.7% accuracy</strong>. SHAP explanations and dashboard
-        workflows supported team and risk analysis, with a reported <strong>15% improvement</strong> in workforce allocation.
-      </p>
-      <code>Python</code> <code>XGBoost</code> <code>SHAP</code><br />
-      <a href="https://danielyamanoglu.github.io/#projects">View project →</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>EKF + Fuzzy-CTC</h3>
-      <sub>GRADUATION THESIS</sub>
-      <p>
-        A control architecture for a nonlinear 2-DOF robot manipulator, combining state estimation with fuzzy
-        compensation around computed-torque control.
-      </p>
-      <code>EKF</code> <code>Fuzzy Logic</code> <code>MATLAB / Simulink</code><br />
-      <a href="https://danielyamanoglu.github.io/#projects">View project →</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Autonomous RAG Pipelines</h3>
-      <sub>ONGOING RESEARCH</sub>
-      <p>
-        Hybrid retrieval work focused on semantic search, reranking, query planning, and tracing how agent decisions
-        affect generated answers.
-      </p>
-      <code>Qdrant</code> <code>LangGraph</code> <code>Evaluation</code><br />
-      <a href="https://danielyamanoglu.github.io/#projects">View project →</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Current direction</h3>
-      <sub>WHAT I AM EXPLORING</sub>
-      <p>
-        Retrieval evaluation, agent memory, structured context, and Python-first backends for AI products.
-      </p>
-      <code>RAG</code> <code>Agents</code> <code>ML Systems</code>
-    </td>
-  </tr>
-</table>
-
-## Experience
-
-<table>
-  <tr>
-    <td width="28%" valign="top">
-      <strong>ENKO</strong><br />
-      <sub>AI/ML Engineering Intern<br />Mar 2026 – Jun 2026</sub>
-    </td>
-    <td valign="top">
-      Mapped sensor and telemetry flows across industrial electronics and energy-management control architectures.
-      Documented hardware-to-software data paths for predictive-maintenance workflows.
-    </td>
-  </tr>
-  <tr>
-    <td width="28%" valign="top">
-      <strong>ADATECH</strong><br />
-      <sub>AI Engineering Intern<br />Jun 2025 – Sep 2025</sub>
-    </td>
-    <td valign="top">
-      Built an AI-powered people-analytics dashboard and an XGBoost model for early turnover-risk detection.
-      The model reached 91.7% accuracy; data workflows improved workforce allocation by 15%.
-    </td>
-  </tr>
-</table>
-
-## Background
-
-| Area | Details |
+| Build | The short version |
 | --- | --- |
-| Education | B.Sc. Control &amp; Automation Engineering · Yıldız Technical University · 2020–2026 · GPA 3.01/4.00 |
-| Thesis | EKF-integrated Fuzzy-CTC control for a nonlinear 2-DOF robot manipulator |
-| Languages | Turkish (native) · English (C1) · Arabic (A2) · Greek (native) |
-| Location | Istanbul, Turkey · Open to remote and hybrid teams |
+| [**Life OS**](https://danielyamanoglu.github.io/#projects) | A personal knowledge system with Telegram input, Neo4j graph memory, and three agents for capture, categorization, and retrieval. |
+| [**Matchfluence**](https://danielyamanoglu.github.io/#projects) | Backend infrastructure for creator-brand matching, data models, analytics, and dashboard APIs. |
+| [**ML Risk Analytics**](https://danielyamanoglu.github.io/#projects) | An XGBoost turnover-risk model that reached **91.7% accuracy**, with SHAP explanations to make the output inspectable. |
+| [**EKF + Fuzzy-CTC**](https://danielyamanoglu.github.io/#projects) | A 2-DOF robot-manipulator thesis where state estimation meets fuzzy compensation and computed-torque control. |
+| [**RAG Experiments**](https://danielyamanoglu.github.io/#projects) | Ongoing work on semantic retrieval, reranking, query planning, and measuring what an agent actually got right. |
 
-## Toolbox
+## `04` / My usual toolbox
 
-<table>
-  <tr>
-    <td><strong>Languages</strong></td>
-    <td><code>Python</code> <code>C/C++</code> <code>TypeScript</code> <code>SQL</code></td>
-  </tr>
-  <tr>
-    <td><strong>AI / ML</strong></td>
-    <td><code>PyTorch</code> <code>XGBoost</code> <code>SHAP</code> <code>LangChain</code> <code>RAG</code></td>
-  </tr>
-  <tr>
-    <td><strong>Data / Infra</strong></td>
-    <td><code>FastAPI</code> <code>Docker</code> <code>PostgreSQL</code> <code>Qdrant</code> <code>Neo4j</code> <code>Supabase</code></td>
-  </tr>
-</table>
+<p>
+  <code>Python</code>
+  <code>FastAPI</code>
+  <code>Docker</code>
+  <code>PostgreSQL</code>
+  <code>Qdrant</code>
+  <code>Neo4j</code>
+  <code>PyTorch</code>
+  <code>XGBoost</code>
+  <code>SHAP</code>
+  <code>LangChain</code>
+  <code>LangGraph</code>
+  <code>TypeScript</code>
+  <code>C/C++</code>
+</p>
 
-## How I work
+## `05` / Small rules I code by
 
-- Make state, ownership, and data flow easy to inspect.
-- Evaluate retrieval and tool calls, not only the final generated text.
-- Treat failure handling as part of the system design.
+- Make the state and data flow visible.
+- When retrieval is empty, return a useful signal instead of a confident guess.
+- A vector database can store context; it cannot replace evaluation.
+- Test the empty, stale, slow, and malformed cases too.
 
-## Open to work
+## `06` / Currently
 
-I am looking for AI/ML Engineer, Applied AI, and Python backend roles in Istanbul or with remote teams.
+Exploring agent memory, retrieval evaluation, and Python-first backends for AI products.
+
+I am open to AI/ML Engineer, Applied AI, and Python backend roles in Istanbul or with remote teams.
 
 If you are building systems that connect models to real data, [say hello](mailto:yamanogludaniel@gmail.com).
 
 <div align="center">
-  <sub>Portfolio · <a href="https://danielyamanoglu.github.io/">danielyamanoglu.github.io</a> · Updated August 2026</sub>
+  <sub>Portfolio · <a href="https://danielyamanoglu.github.io/">danielyamanoglu.github.io</a></sub>
 </div>
