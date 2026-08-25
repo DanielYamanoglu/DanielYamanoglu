@@ -23,7 +23,7 @@ $ location
 Istanbul → Remote / Global
 </code></pre>
 
-## `01` / About
+## About
 
 I work in the awkward middle layer where a model meets a database, an API, a sensor, or a user who did not follow the happy path.
 
@@ -31,7 +31,33 @@ My background is in Control &amp; Automation Engineering, so I naturally care ab
 
 I spend a healthy amount of time asking agents two questions: **what did you retrieve, and why?**
 
-## `02` / What I build
+<p align="center">
+  <img src="./assets/system-map.svg" alt="A map of data flowing through memory and agent systems into useful results" width="900" />
+</p>
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <sub>BUILDING NOW</sub><br />
+      <strong>Agent memory</strong><br />
+      Retrieval, context, traces.
+    </td>
+    <td width="33%" valign="top">
+      <sub>THE QUESTION</sub><br />
+      <strong>What did you retrieve?</strong><br />
+      And why did you use it?
+    </td>
+    <td width="33%" valign="top">
+      <sub>OPEN TO</sub><br />
+      <strong>AI/ML + backend</strong><br />
+      Istanbul · remote / global.
+    </td>
+  </tr>
+</table>
+
+> Models with evidence. APIs with useful errors. Logs that tell the truth.
+
+## What I build
 
 <table>
   <tr>
@@ -56,7 +82,7 @@ I spend a healthy amount of time asking agents two questions: **what did you ret
   </tr>
 </table>
 
-## `03` / Things I have built
+## Things I have built
 
 | Build | The short version |
 | --- | --- |
@@ -66,7 +92,7 @@ I spend a healthy amount of time asking agents two questions: **what did you ret
 | [**EKF + Fuzzy-CTC**](https://danielyamanoglu.github.io/#projects) | A 2-DOF robot-manipulator thesis where state estimation meets fuzzy compensation and computed-torque control. |
 | [**RAG Experiments**](https://danielyamanoglu.github.io/#projects) | Ongoing work on semantic retrieval, reranking, query planning, and measuring what an agent actually got right. |
 
-## `04` / My usual toolbox
+## My usual toolbox
 
 <p>
   <code>Python</code>
@@ -84,14 +110,14 @@ I spend a healthy amount of time asking agents two questions: **what did you ret
   <code>C/C++</code>
 </p>
 
-## `05` / Small rules I code by
+## Small rules I code by
 
 - Make the state and data flow visible.
 - When retrieval is empty, return a useful signal instead of a confident guess.
 - A vector database can store context; it cannot replace evaluation.
 - Test the empty, stale, slow, and malformed cases too.
 
-## `06` / Currently
+## Currently
 
 Exploring agent memory, retrieval evaluation, and Python-first backends for AI products.
 
