@@ -86,11 +86,12 @@ I spend a healthy amount of time asking agents two questions: **what did you ret
 
 | Build | The short version |
 | --- | --- |
-| [**Life OS**](https://danielyamanoglu.github.io/#projects) | A personal knowledge system with Telegram input, Neo4j graph memory, and three agents for capture, categorization, and retrieval. |
-| [**Matchfluence**](https://danielyamanoglu.github.io/#projects) | Backend infrastructure for creator-brand matching, data models, analytics, and dashboard APIs. |
-| [**ML Risk Analytics**](https://danielyamanoglu.github.io/#projects) | An XGBoost turnover-risk model that reached **91.7% accuracy**, with SHAP explanations to make the output inspectable. |
-| [**EKF + Fuzzy-CTC**](https://danielyamanoglu.github.io/#projects) | A 2-DOF robot-manipulator thesis where state estimation meets fuzzy compensation and computed-torque control. |
-| [**RAG Experiments**](https://danielyamanoglu.github.io/#projects) | Ongoing work on semantic retrieval, reranking, query planning, and measuring what an agent actually got right. |
+| [**Life OS**](https://github.com/DanielYamanoglu/lifeos) | A personal knowledge engine: capture pipeline, Neo4j graph + Qdrant vectors, hybrid retrieval with provenance, tool-using agents and an MCP server. |
+| [**FtsDoc**](https://github.com/DanielYamanoglu/ftsdoc) | Document intelligence: a fine-tuned transformer NER plus a LangChain pipeline that turns CVs, invoices, contracts and spec sheets into typed JSON. |
+| [**Predictive Maintenance Telemetry**](https://github.com/DanielYamanoglu/predictive-maintenance-telemetry) | Modbus/MQTT sensor ingestion, feature windows and anomaly/failure models on a simulated plant. |
+| [**Matchfluence Matching**](https://github.com/DanielYamanoglu/matchfluence-matching) | Explainable creator-brand matching: pgvector retrieval on Supabase, a hybrid re-rank and a score breakdown for every match. |
+| [**Employee Turnover Prediction**](https://github.com/DanielYamanoglu/employee-turnover-prediction) | XGBoost turnover-risk model with SHAP explanations and a Streamlit dashboard, re-implemented on public data. |
+| [**EKF + Fuzzy-CTC**](https://github.com/DanielYamanoglu/ekf-fuzzy-ctc-manipulator) | My thesis: a 2-DOF manipulator where state estimation (EKF) meets fuzzy gain scheduling and computed-torque control. MATLAB plus a Python port. |
 
 ## My usual toolbox
 
@@ -103,6 +104,9 @@ I spend a healthy amount of time asking agents two questions: **what did you ret
   <code>Neo4j</code>
   <code>PyTorch</code>
   <code>XGBoost</code>
+  <code>Hugging Face</code>
+  <code>MCP</code>
+  <code>MQTT / Modbus</code>
   <code>SHAP</code>
   <code>LangChain</code>
   <code>LangGraph</code>
