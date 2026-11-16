@@ -91,7 +91,7 @@ I spend a healthy amount of time asking agents two questions: **what did you ret
 | [**Turbofan-RUL**](https://github.com/DanielYamanoglu/turbofan-rul) | Remaining-useful-life prediction on NASA C-MAPSS: SQL window features, gradient boosting (test RMSE 11.2 vs 20.6 baseline), PSI drift monitoring, FastAPI + Docker. |
 | [**FtsDoc**](https://github.com/DanielYamanoglu/ftsdoc) | Document intelligence: a fine-tuned transformer NER plus a LangChain pipeline that turns CVs, invoices, contracts and spec sheets into typed JSON. |
 | [**Predictive Maintenance Telemetry**](https://github.com/DanielYamanoglu/predictive-maintenance-telemetry) | Modbus/MQTT sensor ingestion, feature windows and anomaly/failure models on a simulated plant. |
-| [**Matchfluence Matching**](https://github.com/DanielYamanoglu/matchfluence-matching) | Explainable creator-brand matching: pgvector retrieval on Supabase, a hybrid re-rank and a score breakdown for every match. |
+| [**Matchfluence Matching**](https://github.com/DanielYamanoglu/matchfluence-matching) | Explainable creator-brand matching: embedding retrieval, a hybrid re-rank and a score breakdown for every match, with a pgvector/Supabase schema as reference SQL. |
 | [**Employee Turnover Prediction**](https://github.com/DanielYamanoglu/employee-turnover-prediction) | XGBoost turnover-risk model with SHAP explanations and a Streamlit dashboard, re-implemented on public data. |
 | [**EKF + Fuzzy-CTC**](https://github.com/DanielYamanoglu/ekf-fuzzy-ctc-manipulator) | My thesis: a 2-DOF manipulator where state estimation (EKF) meets fuzzy gain scheduling and computed-torque control. MATLAB plus a Python port. |
 
