@@ -94,7 +94,7 @@ I spend a healthy amount of time asking agents two questions: **what did you ret
 | [**Predictive Maintenance Telemetry**](https://github.com/DanielYamanoglu/predictive-maintenance-telemetry) | Modbus/MQTT sensor ingestion, feature windows and anomaly/failure models on a simulated plant. |
 | [**Matchfluence Matching**](https://github.com/DanielYamanoglu/matchfluence-matching) | Explainable creator-brand matching: embedding retrieval, a hybrid re-rank and a score breakdown for every match, with a pgvector/Supabase schema as reference SQL. |
 | [**Employee Turnover Prediction**](https://github.com/DanielYamanoglu/employee-turnover-prediction) | XGBoost turnover-risk model with SHAP explanations and a Streamlit dashboard, re-implemented on public data. |
-| [**INS/GNSS Fusion**](https://github.com/DanielYamanoglu/ins-gnss-fusion) | Loosely coupled INS/GNSS navigation: EKF with strapdown mechanisation and in-motion IMU bias calibration, 1.4 m position RMSE vs 3.5 m for GNSS alone, a 30 s GNSS outage bridged at 2.9 m, validated with Monte Carlo NEES. |
+| [**INS/GNSS Fusion**](https://github.com/DanielYamanoglu/ins-gnss-fusion) | 3D INS/GNSS for a UAV: 15-state error-state Kalman filter with static alignment and in-flight IMU calibration, 0.64 m position and 0.1° roll/pitch error, a 60 s GNSS outage bridged at 14 m, every GNSS jump rejected by a chi-square gate, NEES-validated over 50 Monte Carlo runs. |
 | [**EKF + Fuzzy-CTC**](https://github.com/DanielYamanoglu/ekf-fuzzy-ctc-manipulator) | My thesis: a 2-DOF manipulator where state estimation (EKF) meets fuzzy gain scheduling and computed-torque control. MATLAB plus a Python port. |
 
 ## My usual toolbox
