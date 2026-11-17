@@ -88,6 +88,7 @@ I spend a healthy amount of time asking agents two questions: **what did you ret
 | --- | --- |
 | [**Life OS**](https://github.com/DanielYamanoglu/lifeos) | A personal knowledge engine: capture pipeline, Neo4j graph + Qdrant vectors, hybrid retrieval with provenance, tool-using agents and an MCP server. |
 | [**Mevzuat-RAG**](https://github.com/DanielYamanoglu/mevzuat-rag) | Evaluated RAG over Turkish banking and data-protection law: hybrid BM25 + dense retrieval (0.92 Recall@5), PII masking, prompt-injection refusal and validated citations in a LangGraph pipeline. |
+| [**Credit Risk Scorecard**](https://github.com/DanielYamanoglu/credit-risk-scorecard) | Probability of default for 30,000 card accounts: WoE scorecard with points and a monotonic gradient boosting challenger (test Gini 0.54), validated with KS, calibration and PSI, plus a profit based approval cutoff. |
 | [**Turbofan-RUL**](https://github.com/DanielYamanoglu/turbofan-rul) | Remaining-useful-life prediction on NASA C-MAPSS: SQL window features, gradient boosting (test RMSE 11.2 vs 20.6 baseline), PSI drift monitoring, FastAPI + Docker. |
 | [**FtsDoc**](https://github.com/DanielYamanoglu/ftsdoc) | Document intelligence: a fine-tuned transformer NER plus a LangChain pipeline that turns CVs, invoices, contracts and spec sheets into typed JSON. |
 | [**Predictive Maintenance Telemetry**](https://github.com/DanielYamanoglu/predictive-maintenance-telemetry) | Modbus/MQTT sensor ingestion, feature windows and anomaly/failure models on a simulated plant. |
